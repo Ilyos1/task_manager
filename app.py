@@ -12,7 +12,7 @@ async def start_ccd(message: types.Message):
     await message.answer("staaart")
 
 
-@dp.message()
+@dp.message( )
 async def echo(message: types.Message):
     await message.answer("echo echo")
 
